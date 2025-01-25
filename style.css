@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header button {
+
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #71277A;
+    color: white;
+    
+
+}
+
+.header button:hover {
+    background-color: #FFD400;
+    box-shadow: 0 0 20px #FFD400;
+    color: white;
+
+}
+
+.hero-section button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+.hero-section button:hover {
+    background-color: blueviolet;
+    box-shadow: 0 0 20px blueviolet;
+    color: white;
+}
+
+.services{
+    margin-right: 100%;
+    display: flex;
+    padding: 0 20%;
+    gap: 80px;
+}
+.cards{
+    text-align: center;
+    margin: 0 30%;
+    
+
+}
+
+
+.contact{
+    background-color:#71277a;
+
+}
+.contact h2{
+    margin-bottom: 3rem;
+    color: #fff;
+}
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 20px;
+    font-size: 1.8rem;
+    color: black;
+    background-color: pink;
+    border-radius: 2rem;
+    border: 2px solid var(--main-colour);
+    margin: 1.5rem 0;
+    resize: none;
+}
+
+.contact button{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #71277A;
+    color: white;
+}
+
+.contact button:hover{
+    background-color: blueviolet;
+    box-shadow: 0 0 20px blueviolet;
+    color: white;
+}
+
+
